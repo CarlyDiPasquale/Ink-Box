@@ -11,9 +11,9 @@
 // 	</Box>
 // )
 
-"use strict";
-const React = require("react");
-const { Text, Box } = require("ink");
+'use strict';
+const React = require('react');
+const { Text, Box } = require('ink');
 
 const App = () => (
 	<Box flexDirection="column" alignItems="center" padding={3}>
@@ -28,21 +28,35 @@ const App = () => (
 		</Box>
 
 		<Box>
-			<Box borderStyle="bold" borderColor="#bf80ff" padding={1} marginLeft={3}>
+			<Box
+				borderStyle="classic"
+				borderColor="#bf80ff"
+				padding={1}
+				marginLeft={3}
+			>
 				<Text>
-					<Text color="#ccff33">Box 2</Text>
+					<Text inverse color="#ccff33">
+						Box 2
+					</Text>
 				</Text>
 			</Box>
 
 			<Box borderStyle="classic" borderColor="green" padding={1} marginLeft={3}>
 				<Text>
-					<Text color="#ff9999">Box 3</Text>
+					<Text inverse color="#ff9999">
+						Box 3
+					</Text>
 				</Text>
 			</Box>
 		</Box>
 
 		<Box>
-			<Box borderStyle="round" borderColor="#ffff4d" padding={1} marginLeft={3}>
+			<Box
+				borderStyle="double"
+				borderColor="#ffff4d"
+				padding={1}
+				marginLeft={3}
+			>
 				<Text>
 					<Text color="#0099cc">Box 4</Text>
 				</Text>
